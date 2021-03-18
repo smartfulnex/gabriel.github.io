@@ -1,0 +1,23 @@
+/* Custom CSS */
+	
+    //medium+ screen sizes
+    @media screen and (min-width:992px) {
+        #mobile-only {
+            display:none !important;
+        }
+
+        #desktop-only {
+            display:block !important;
+        }
+    }
+
+    //small screen sizes
+    @media screen and (max-width: 991px) {
+        #mobile-only {
+            display:block !important;
+        }
+
+        #desktop-only {
+            display:none !important;
+        }
+    }
